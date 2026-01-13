@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@layer components {
+  .card {
+    @apply bg-black rounded-lg my-6 p-6 max-w-7xl mx-auto shadow-xl/30;
+  }
+
+  .subheading {
+    @apply font-bold text-2xl mb-6;
+  }
+
+  .skill-button {
+    @apply px-4 py-2 mr-6 bg-white text-black rounded-md hover:translate-y-0.5;
+  }
+
+  .job-title {
+    @apply text-2xl ml-6;
+  }
+
+  .job-content {
+    @apply ml-12;
+  }
+}
