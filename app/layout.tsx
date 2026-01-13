@@ -5,14 +5,24 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const navContent = ["home", "about", "projects", "contact"]
+
   return (
     <html lang="en">
-      <body className="bg-linear-to-br from-black via-red-900 to-amber-900 text-white min-h-screen">
+      <body className="bg-linear-to-br from-red-900 via-orange-900 to-amber-900 text-white min-h-screen">
         <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="/">HOME</a>
-          <a href="/about">ABOUT</a>
-          <a href="/projects">PORJECTS</a>
-          <a href="/contact">CONTACT</a>
+          {navContent.map((content, idx) => {
+            return (
+              content !== "home" ?
+                <a className="transition-transform duration-300 hover:scale-150" key={idx} href={`/${content.toLowerCase()}`}>
+                  {content.toUpperCase()}
+                </a>
+                :
+                <a className="transition-transform duration-300 hover:scale-150" key={idx} href="/">
+                  {content.toUpperCase()}
+                </a>
+            );
+          })}
         </nav>
 
         {children}
