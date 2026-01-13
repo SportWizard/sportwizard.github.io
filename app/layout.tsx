@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-br from-black via-red-900 to-amber-900 text-white min-h-screen">
+      <body className="bg-linear-to-br from-black via-red-900 to-amber-900 text-white min-h-screen">
         <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <a href="/">HOME</a>
           <a href="/about">ABOUT</a>
