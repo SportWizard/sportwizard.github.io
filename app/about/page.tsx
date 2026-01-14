@@ -27,7 +27,7 @@ export default function About() {
 
         <h3 className="job-title">Web Developer</h3>
         <div className="job-content">
-          White Haven Community Club - Scarborough, ON
+          White Haven Community Club - Toronto, ON
           <br />
           Oct 2025 to Now
           <br />
