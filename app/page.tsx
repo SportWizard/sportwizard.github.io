@@ -13,7 +13,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="fixed bottom-10 left-1/2 -translate-x-1/2">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
         <a href="https://github.com/SportWizard" target="_blank">
           <img src="/images/github.png" alt="Github logo" width="50" height="50" />
         </a>
