@@ -25,7 +25,9 @@ export default function RootLayout({
           })}
         </nav>
 
-        {children}
+        <main>
+          {children}
+        </main>
 
         <footer className="fixed bottom-2 w-full text-center">
           © 2026 Henry Ye Cao
