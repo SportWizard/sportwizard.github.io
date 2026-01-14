@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-linear-to-br from-red-800 via-orange-800 to-amber-800 text-white min-h-screen">
-        <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between">
           {navContent.map((content, idx) => {
             return (
               content !== "home" ?
@@ -29,7 +29,7 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="absolute bottom-2 w-full text-center">
+        <footer className="w-full text-center">
           © 2026 Henry Ye Cao
         </footer>
       </body>
