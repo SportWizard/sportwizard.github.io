@@ -11,15 +11,15 @@ export default function About() {
       <div className="card">
         <h2 className="subheading">Skills</h2>
 
-        <button className="skill-button">Python</button>
-        <button className="skill-button">Java</button>
-        <button className="skill-button">JavaScript</button>
-        <button className="skill-button">C</button>
-        <button className="skill-button">HTML/CSS</button>
-        <button className="skill-button">MySQL</button>
-        <button className="skill-button">OOP</button>
-        <button className="skill-button">DSA</button>
-        <button className="skill-button">Git</button>
+        <div className="skill">Python</div>
+        <div className="skill">Java</div>
+        <div className="skill">JavaScript</div>
+        <div className="skill">C</div>
+        <div className="skill">HTML/CSS</div>
+        <div className="skill">MySQL</div>
+        <div className="skill">OOP</div>
+        <div className="skill">DSA</div>
+        <div className="skill">Git</div>
       </div>
 
       <div className="card">
