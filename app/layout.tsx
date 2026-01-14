@@ -9,7 +9,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-linear-to-br from-red-900 via-orange-900 to-amber-900 text-white min-h-screen">
+      <body className="bg-linear-to-br from-red-800 via-orange-800 to-amber-800 text-white min-h-screen">
         <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {navContent.map((content, idx) => {
             return (
