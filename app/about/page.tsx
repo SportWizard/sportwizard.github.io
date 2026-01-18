@@ -9,17 +9,15 @@ export default function About() {
       </div>
 
       <div className="card">
-        <h2 className="subheading">Skills</h2>
+        <h2 className="subheading">Development</h2>
 
-        <div className="skill">Python</div>
-        <div className="skill">Java</div>
-        <div className="skill">JavaScript</div>
-        <div className="skill">C</div>
-        <div className="skill">HTML/CSS</div>
-        <div className="skill">MySQL</div>
-        <div className="skill">OOP</div>
-        <div className="skill">DSA</div>
-        <div className="skill">Git</div>
+        <div className="tool">Python</div>
+        <div className="tool">Java</div>
+        <div className="tool">JavaScript</div>
+        <div className="tool">C</div>
+        <div className="tool">HTML/CSS</div>
+        <div className="tool">MySQL</div>
+        <div className="tool">Git</div>
       </div>
 
       <div className="card">
