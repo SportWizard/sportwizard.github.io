@@ -2,7 +2,7 @@
 
 @layer components {
   .card {
-    @apply bg-black rounded-lg my-6 p-6 max-w-7xl mx-auto shadow-xl/30;
+    @apply bg-black rounded-lg m-6 p-6 shadow-xl/30;
   }
 
   .subheading {
