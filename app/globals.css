@@ -20,4 +20,8 @@
   .job-content {
     @apply ml-12;
   }
+
+  .project-showcase {
+    @apply flex flex-col items-center my-6 gap-2;
+  }
 }
