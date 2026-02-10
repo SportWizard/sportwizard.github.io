@@ -15,7 +15,6 @@ export default function About() {
         <div className="tool">Java</div>
         <div className="tool">JavaScript</div>
         <div className="tool">C</div>
-        <div className="tool">HTML/CSS</div>
         <div className="tool">MySQL</div>
         <div className="tool">Git</div>
       </div>
